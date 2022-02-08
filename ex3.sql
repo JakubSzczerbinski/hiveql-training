@@ -1,0 +1,1 @@
+SELECT id, COUNT(*) FROM raw.employee GROUP BY id HAVING COUNT(*) <= 1 LIMIT 20;
